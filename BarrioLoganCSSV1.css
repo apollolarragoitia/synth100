@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+.feature-video-container {
+    text-align: center; /* Centers inline elements within */
+    padding: 20px; /* Adds space around the container */
+    width: 100%; /* Ensures the container spans the full width */
+    box-sizing: border-box; /* Padding is included in the width calculation */
+}
+
+.feature-video {
+    max-width: 80%; /* Adjust based on your preference */
+    border-radius: 10px; /* Rounds the corners */
+    border: 2px solid black; /* Adds a border as requested */
+    display: inline-block; /* This makes text-align centering effective for the video */
+}
+
+
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.video {
+    width: calc(33.333% - 20px);
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.video-title {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+video {
+    width: 100%;
+    display: block;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.sidebar.open {
+    width: 250px;
+}
