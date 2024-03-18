@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const sidebarTexts = {
         video1: "This interview discusses the working conditions found in NASSCO, a ship freight company found in Barrio Logan. This interview discusses the experience an employee has had with the pollution NASSCO has created and its impact on Barrio Logan and other neighborhoods.",
-        video2: "This is a second test",
+        video2: "Melody, a 4th year UCSD student takes time to talk with us in an abridged podcast style interview about their lived experience as a Barrio Logan resident.  Such issues include climate vulnerability in relation to wealth and health. She also discusses issues of political outreach and service. Her discussion provides an opportunity to see the long-term, day-to-day effects of climate change in a climate vulnerable neighborhood.",
+        
         // Add more entries for each video
     };
 
