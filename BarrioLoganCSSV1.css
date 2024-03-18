@@ -79,3 +79,7 @@ video {
 .sidebar.open {
     width: 250px;
 }
+.sidebar.left {
+    right: auto; /* Remove the sidebar from the right */
+    left: 0; /* Position the sidebar on the left */
+}
