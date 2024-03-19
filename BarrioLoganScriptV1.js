@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to open the sidebar with specific content for the header
     function openSidebarWithHeaderContent() {
         const sidebar = document.getElementById('videoSidebar');
-        document.getElementById('sidebarText').textContent = "Welcome to Barrio Logan: An Interactive Documentary. Hover and click on the title of any video to learn more about it.";
+        document.getElementById('sidebarText').textContent = "Welcome to our interactive documentary about Barrio Logan. Hover and click on the title of any video to learn more about it.";
         sidebar.classList.add('open');
         // Optionally, position the sidebar if needed
         // sidebar.classList.add('left'); or sidebar.classList.remove('left');
