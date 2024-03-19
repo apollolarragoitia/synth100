@@ -10,7 +10,7 @@
 
 <body>
 
-    <div class="header">
+    <div class="header" id="mainHeader">
         Barrio Logan: An Interactive Documentary
     </div>
     
@@ -33,34 +33,14 @@
         </div>
         <!-- Video 3 -->
         <div class="video" data-sidebar-key="video3">
-            <div class="video-title">An Interview with Senor Pastor: A Flood Survivor</div>
+            <div class="video-title">An Interview with Hector Pastor: A Flood Survivor</div>
             <video controls>
                 <source src="path_to_your_video_3.mp4" type="video/mp4">
             </video>
         </div>
-        <!-- Video 4 -->
-        <div class="video" data-sidebar-key="video4">
-            <div class="video-title">Video Title 4</div>
-            <video controls>
-                <source src="path_to_your_video_4.mp4" type="video/mp4">
-            </video>
-        </div>
-        <!-- Video 5 -->
-        <div class="video" data-sidebar-key="video5">
-            <div class="video-title">Video Title 5</div>
-            <video controls>
-                <source src="path_to_your_video_5.mp4" type="video/mp4">
-            </video>
-        </div>
-        <!-- Video 6 -->
-        <div class="video" data-sidebar-key="video6">
-            <div class="video-title">Video Title 6</div>
-            <video controls>
-                <source src="path_to_your_video_6.mp4" type="video/mp4">
-            </video>
-        </div>
     </div>
     <div id="videoSidebar" class="sidebar">
+        <button id="closeSidebar" style="position: absolute; top: 0; right: 0;">X</button>
         <p id="sidebarText">This text will change based on the video.</p>
     </div>
 </body>
